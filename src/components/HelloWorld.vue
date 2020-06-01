@@ -35,7 +35,7 @@ export default defineComponent({
     const increase = (): void => {
       count.value += 1;
     };
-    const list: Array<object> = [
+    const list: {name: string}[] = [
       {
         name: 'foo',
       },
